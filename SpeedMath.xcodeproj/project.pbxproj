@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03EC8D72427B9A20019B3E3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03EC8D62427B9A20019B3E3 /* Question.swift */; };
+		A03EC8D92427B9D40019B3E3 /* QuestionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03EC8D82427B9D40019B3E3 /* QuestionRow.swift */; };
+		A03EC8DB2427BA140019B3E3 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03EC8DA2427BA140019B3E3 /* Position.swift */; };
 		A0EB96362426B66E002B4AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB96352426B66E002B4AEC /* AppDelegate.swift */; };
 		A0EB96382426B66E002B4AEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB96372426B66E002B4AEC /* ContentView.swift */; };
 		A0EB963A2426B671002B4AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EB96392426B671002B4AEC /* Assets.xcassets */; };
 		A0EB963D2426B671002B4AEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EB963C2426B671002B4AEC /* Preview Assets.xcassets */; };
 		A0EB96402426B671002B4AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EB963E2426B671002B4AEC /* Main.storyboard */; };
+		A0EB96492426BC3E002B4AEC /* TypingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB96482426BC3E002B4AEC /* TypingWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03EC8D62427B9A20019B3E3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A03EC8D82427B9D40019B3E3 /* QuestionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRow.swift; sourceTree = "<group>"; };
+		A03EC8DA2427BA140019B3E3 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		A0EB96322426B66E002B4AEC /* SpeedMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EB96352426B66E002B4AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0EB96372426B66E002B4AEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +30,7 @@
 		A0EB963F2426B671002B4AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0EB96412426B671002B4AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0EB96422426B671002B4AEC /* SpeedMath.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeedMath.entitlements; sourceTree = "<group>"; };
+		A0EB96482426BC3E002B4AEC /* TypingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +63,16 @@
 		A0EB96342426B66E002B4AEC /* SpeedMath */ = {
 			isa = PBXGroup;
 			children = (
+				A0EB96422426B671002B4AEC /* SpeedMath.entitlements */,
+				A0EB96412426B671002B4AEC /* Info.plist */,
 				A0EB96352426B66E002B4AEC /* AppDelegate.swift */,
 				A0EB96372426B66E002B4AEC /* ContentView.swift */,
+				A03EC8DA2427BA140019B3E3 /* Position.swift */,
+				A03EC8D62427B9A20019B3E3 /* Question.swift */,
+				A03EC8D82427B9D40019B3E3 /* QuestionRow.swift */,
+				A0EB96482426BC3E002B4AEC /* TypingWindow.swift */,
 				A0EB96392426B671002B4AEC /* Assets.xcassets */,
 				A0EB963E2426B671002B4AEC /* Main.storyboard */,
-				A0EB96412426B671002B4AEC /* Info.plist */,
-				A0EB96422426B671002B4AEC /* SpeedMath.entitlements */,
 				A0EB963B2426B671002B4AEC /* Preview Content */,
 			);
 			path = SpeedMath;
@@ -145,6 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EB96492426BC3E002B4AEC /* TypingWindow.swift in Sources */,
+				A03EC8D92427B9D40019B3E3 /* QuestionRow.swift in Sources */,
+				A03EC8DB2427BA140019B3E3 /* Position.swift in Sources */,
+				A03EC8D72427B9A20019B3E3 /* Question.swift in Sources */,
 				A0EB96382426B66E002B4AEC /* ContentView.swift in Sources */,
 				A0EB96362426B66E002B4AEC /* AppDelegate.swift in Sources */,
 			);
